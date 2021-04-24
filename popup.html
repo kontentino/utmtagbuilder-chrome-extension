@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>UTM Tag Builder</title>
+    <link href="popup.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1>UTM Tag Builder</h1>
+    <form class="name-form" id="name-form" action="#">
+      <div class="form-group">
+        <label class="form-label" for="urlAddress">URL Address</label>
+        <input class="form-control" type="text" id="urlAddress" placeholder="https://" />
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="utmSource">UTM Source</label>
+        <input class="form-control" type="text" id="utmSource" />
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="utmMedium">UTM Medium</label>
+        <input class="form-control" type="text" id="utmMedium" />
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="utmCampaign">UTM Campaign</label>
+        <input class="form-control" type="text" id="utmCampaign" />
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="url">Generated URL</label>
+        <textarea rows="3" class="form-control" id="url" readonly="readonly"></textarea>
+      </div>
+      
+      <button type="submit" class="btn btn-primary" id="copyUrl">Copy URL</button>
+   </form>
+   <p class="signature">by <a href="https://kontentino.com" target="_blank">Kontentino</a></p>
+   <script src="popup.js"></script>
+  </body>
+</html>
