@@ -1,12 +1,8 @@
 {
   "manifest_version": 2,
   "version": "1.0.0",
-  "name": "UTM Tag Builder",
+  "name": "Kontentino - UTM Tag Builder",
   "description": "Generate UTM tags easily with our FREE tool and track your campaigns effectively.",
-  "permissions": [
-    "activeTab",
-    "<all_urls>"
-  ],
   "browser_action": {
     "default_icon": "kontentino.png",
     "default_popup": "popup.html"
